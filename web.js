@@ -5,12 +5,12 @@ var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
   var fs = require('fs');
-  var content = fs.readFile('./index.html','utf8', function (err,data) {
+  var mess = fs.readFile('./index.html','utf8', function (err,data) {
     if (err) {
      // return console.log(err);
      response.send("Problem");
     } else {
-     response.send(content);
+     response.send(mess);
     }
   });
 });
