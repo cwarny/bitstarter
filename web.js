@@ -10,7 +10,7 @@ app.get('/', function(request, response) {
      // return console.log(err);
      response.send("Problem");
     } else {
-     response.send("Booyah");
+     response.send(content);
     }
   });
 });
