@@ -1,7 +1,7 @@
-class HelloWorld
-  def self.hello
-    puts "Hello World"
+class HiWorld
+  def self.hi
+    puts "Hi World"
   end
 end
 
-HelloWorld.hello
+HiWorld.hi
