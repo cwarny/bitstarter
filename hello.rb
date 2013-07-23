@@ -1,6 +1,6 @@
 class HelloWorld
   def self.hello
-    puts "Hello World, check this out"
+    puts "Hello World"
   end
 end
 
